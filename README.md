@@ -1,4 +1,4 @@
-# esbuild-test
+# test-esbuild-app
 
 devサーバ起動
 

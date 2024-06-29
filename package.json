@@ -1,5 +1,5 @@
 {
-  "name": "my-esbuild-app",
+  "name": "test-esbuild-app",
   "version": "1.0.0",
   "scripts": {
     "build": "esbuild src/index.js --bundle --outfile=dist/bundle.js",
