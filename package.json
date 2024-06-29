@@ -1,0 +1,12 @@
+{
+  "name": "my-esbuild-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --outfile=dist/bundle.js",
+    "start": "esbuild src/index.js --bundle --outfile=dist/bundle.js --servedir=dist",
+    "dev": "esbuild src/index.js --bundle --outfile=dist/bundle.js --servedir=dist --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.18.0"
+  }
+}
